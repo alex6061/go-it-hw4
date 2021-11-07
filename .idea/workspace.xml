@@ -22,7 +22,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/icons/networks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -31,12 +31,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Documents\GitHub\go-it-hw4\img" />
+      <recent name="C:\Users\Lenovo\Documents\GitHub\go-it-hw4\img\icons\clients" />
       <recent name="C:\Users\Lenovo\Documents\GitHub\go-it-hw4\img\icons\networks" />
       <recent name="C:\Users\Lenovo\Documents\GitHub\go-it-hw4\img\icons" />
       <recent name="C:\Users\Lenovo\Documents\GitHub\go-it-hw4\css\icons" />
-      <recent name="C:\Users\Lenovo\Documents\GitHub\go-it-hw4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Documents\GitHub\go-it-hw4\img\icons" />
       <recent name="C:\Users\Lenovo\Documents\GitHub\go-it-hw4\img" />
     </key>
   </component>
@@ -48,7 +50,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1636291943149</updated>
-      <workItem from="1636291944445" duration="1437000" />
+      <workItem from="1636291944445" duration="8424000" />
+      <workItem from="1636307825930" duration="2519000" />
     </task>
     <servers />
   </component>

@@ -1,10 +1,10 @@
-h1,h2,h3,h4,h5,h6 {margin: 0 auto;padding: 0;}
+header,section,h1,h2,h3,h4,h5,h6 {margin: 0 auto;padding: 0;}
 li {list-style: none;}
 a{text-decoration: none;}
 p {margin: 0;}
 body {margin: 0;padding: 0;}
 ul {margin: 0 auto;padding: 0;}
-
+html, body {max-width: 100%;overflow-x: hidden;}
 
 p {color: #757575;}
 
@@ -124,7 +124,7 @@ nav {
     transition: 7ms;
 }
 
-.tel a:focus{
+.tel a :focus{
     font-size: 14px;
     font-family: 'Roboto',Arial,sans-serif;
     font-weight: 500;
@@ -133,13 +133,15 @@ nav {
     outline: none;
 }
 
-/*====section_what_we_do===*/
 
-.header {
-    display: inline-block;
-    height: 100vh;
+/*====section_what_we_do===*/
+.bg {
+    background: url("/img/img (2).jpg") no-repeat top center / cover, rgba(255, 255, 255, 0.2);
     width: 100%;
-    background: #2F303A;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
 }
 
 h1 {
@@ -186,6 +188,12 @@ h1 {
 }
 
 /*===section_team===*/
+
+
+/*=====cection_item====*/
+.item {
+    padding: 94px 0;
+}
 
 .team {
     background: #F5F4FA;
@@ -291,6 +299,23 @@ h4 {
     padding: 10px 0 30px;
 
 }
+
+.networks {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.networks_hover {
+
+}
+
+/*====clients_hover====*/
+
+.section_clients  {
+    padding: 94px 0 94px;
+}
+.cli
+
 /*===footer===*/
 
 
