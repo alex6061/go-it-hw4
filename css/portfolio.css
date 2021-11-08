@@ -1,7 +1,9 @@
 body,p,ul,h1,h2,h3,h4,h5,h6,button{margin: 0 auto;padding: 0}
 li {list-style: none;}
 a{text-decoration: none;}
-
+*,*::before,*::after{
+    box-sizing: inherit;
+}
 
 
 .container {
@@ -149,18 +151,18 @@ main {
     cursor: pointer;
 }
 
-    .choice button:hover {
-        color: white;
-        background: #2196F3;
-        transition: 0.2s;
+.choice button:hover {
+    color: white;
+    background: #2196F3;
+    transition: 0.2s;
 
-    }
-    .choice button:focus {
-        color: white;
-        background: #2196F3;
-        transition: 0.2s;
-        outline: none;
-    }
+}
+.choice button:focus {
+    color: white;
+    background: #2196F3;
+    transition: 0.2s;
+    outline: none;
+}
 
 
 .card {
@@ -179,14 +181,14 @@ h2 {
     font-family: 'Roboto-Regular',Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
-    padding: 20px 0 4px 24px ;
+    margin: 20px 0 4px 24px ;
     color: #212121;
 
 }
 
 .it {
     font-family: 'Roboto-Regular',Arial,sans-serif;
-    padding: 4px 24px 20px;
+    margin: 4px 24px 20px;
     font-size: 16px;
     color: #757575;
     line-height: 30px;
@@ -212,10 +214,10 @@ footer {
 }
 
 address {
-    padding-top: 20px;
+    margin-top: 20px;
 }
 address li {
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 
 address li a{

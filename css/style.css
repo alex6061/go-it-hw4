@@ -1,10 +1,9 @@
-header,section,h1,h2,h3,h4,h5,h6 {margin: 0 auto;padding: 0;}
+body,p,ul,h1,h2,h3,h4,h5,h6,button{margin: 0 auto;padding: 0}
 li {list-style: none;}
 a{text-decoration: none;}
-p {margin: 0;}
-body {margin: 0;padding: 0;}
-ul {margin: 0 auto;padding: 0;}
-html, body {max-width: 100%;overflow-x: hidden;}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
 
 p {color: #757575;}
 
@@ -101,6 +100,7 @@ nav {
     margin: 33px 0 24px 200px;
     float: right;
     display: inline-block;
+
 }
 
 .tel {
@@ -109,6 +109,7 @@ nav {
 
 .tel li {
     margin-right: 50px;
+
 }
 
 .tel a {
@@ -119,29 +120,40 @@ nav {
     font-weight: 500;
 }
 
-.tel a:hover {
-    color: #2196F3;
-    transition: 7ms;
+.center {
+    display: inline;
+    margin-right: 10px;
+   vertical-align: middle;
 }
 
-.tel a :focus{
+.center:hover,
+.center:focus {
+    margin-right: 10px;
+    position: relative;
+    color: #1d70af;
+}
+
+
+.tel a:hover,
+.tel a:focus {
+    color: #2196F3;
+    transition: 7ms;
     font-size: 14px;
     font-family: 'Roboto',Arial,sans-serif;
     font-weight: 500;
-    color: #2196F3;
-    transition: 7ms;
     outline: none;
 }
 
 
+
+
 /*====section_what_we_do===*/
-.bg {
-    background: url("/img/img (2).jpg") no-repeat top center / cover, rgba(255, 255, 255, 0.2);
-    width: 100%;
+
+.header {
+    display: inline-block;
     height: 100vh;
-    overflow: hidden;
-    margin: 0 auto;
-    padding: 0;
+    width: 100%;
+    background: #2F303A;
 }
 
 h1 {
@@ -189,12 +201,6 @@ h1 {
 
 /*===section_team===*/
 
-
-/*=====cection_item====*/
-.item {
-    padding: 94px 0;
-}
-
 .team {
     background: #F5F4FA;
 }
@@ -212,7 +218,7 @@ h1 {
 
 
 h3{
-    padding-bottom: 10px;
+    margin-bottom: 10px;
     font-style: normal;
     font-size: 14px;
     line-height: 16px;
@@ -224,7 +230,7 @@ h3{
 }
 
 .wrapper__ul__text {
-    padding-top: 10px;
+    margin-top: 10px;
     font-family: Roboto, Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -238,6 +244,7 @@ h3{
 /*====section_do====*/
 
 h2 {
+
     font-family: Roboto, Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -246,20 +253,20 @@ h2 {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .do__item {
     display: flex;
     flex-direction: row;
     gap: 30px;
-    padding-bottom: 94px;
 }
 
 
 /*=========section_team====*/
 
 .team {
+
     padding: 94px 0 94px;
     background: #F5F4FA;
 }
@@ -284,7 +291,7 @@ h4 {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    padding-top: 30px;
+    margin-top: 30px;
 }
 
 .team__items__text {
@@ -296,26 +303,9 @@ h4 {
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
-    padding: 10px 0 30px;
+    margin: 10px 0 30px;
 
 }
-
-.networks {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.networks_hover {
-
-}
-
-/*====clients_hover====*/
-
-.section_clients  {
-    padding: 94px 0 94px;
-}
-.cli
-
 /*===footer===*/
 
 
@@ -336,11 +326,11 @@ footer {
     text-decoration: none;
 }
 
-address {
-    padding-top: 20px;
+address{
+    margin-top: 20px;
 }
 address li {
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 address li a{
     font-family: 'Roboto',Arial,sans-serif;
