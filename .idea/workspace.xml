@@ -4,7 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f05eb3f-3cf2-4dae-8eef-20e83d938e76" name="Changes" comment="" />
+    <list default="true" id="6f05eb3f-3cf2-4dae-8eef-20e83d938e76" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/img/Img (5).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons/group-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons/symbol-defs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/portfolio/symbol-defs.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/portfolio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/astronaut (1).svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/clients/Object.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/clients/Union.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/clients/group (1).svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/clients/group (2).svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/clients/group.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/clock (1).svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/desctop (1).svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/dish (1).svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/mail.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/envelope.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/networks/Ellipse (1).svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/networks/FB (1).svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/networks/INST (1).svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/networks/LD (1).svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/networks/TW (1).svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/tel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/icons/icon-moon" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -31,14 +57,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Lenovo\Documents\GitHub\go-it-hw4\img" />
+      <recent name="C:\Users\Lenovo\Documents\GitHub\go-it-hw4\img\icons\icon-moon" />
+      <recent name="C:\Users\Lenovo\Documents\GitHub\go-it-hw4\img\icons\footer_networks" />
       <recent name="C:\Users\Lenovo\Documents\GitHub\go-it-hw4\img\icons\clients" />
-      <recent name="C:\Users\Lenovo\Documents\GitHub\go-it-hw4\img\icons\networks" />
       <recent name="C:\Users\Lenovo\Documents\GitHub\go-it-hw4\img\icons" />
-      <recent name="C:\Users\Lenovo\Documents\GitHub\go-it-hw4\css\icons" />
+      <recent name="C:\Users\Lenovo\Documents\GitHub\go-it-hw4\css\svg" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Lenovo\Documents\GitHub\go-it-hw4\img\icons" />
+      <recent name="C:\Users\Lenovo\Documents\GitHub\go-it-hw4\img\icons\icon-moon" />
+      <recent name="C:\Users\Lenovo\Documents\GitHub\go-it-hw4\img\icons\networks" />
+      <recent name="C:\Users\Lenovo\Documents\GitHub\go-it-hw4\img\portfolio" />
       <recent name="C:\Users\Lenovo\Documents\GitHub\go-it-hw4\img" />
     </key>
   </component>
@@ -55,6 +84,10 @@
       <workItem from="1636314588196" duration="1486000" />
       <workItem from="1636318731272" duration="257000" />
       <workItem from="1636406265504" duration="40000" />
+      <workItem from="1636698980008" duration="2296000" />
+      <workItem from="1636702818977" duration="7412000" />
+      <workItem from="1636787150729" duration="1545000" />
+      <workItem from="1636872133884" duration="33981000" />
     </task>
     <servers />
   </component>
