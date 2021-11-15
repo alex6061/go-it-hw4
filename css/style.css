@@ -262,6 +262,8 @@ h3{
     display: flex;
     justify-content: center;
     padding: 25px 0 33px;
+    width: 270px;
+    height: 128px;
 }
 
 
@@ -311,8 +313,6 @@ h2 {
 }
 
 
-
-
 h4 {
     font-family: Roboto, Arial, sans-serif;
     font-weight: 500;
@@ -339,11 +339,9 @@ h4 {
     width: 100%;
 }
 
-.team_networks {
-    padding: 0 32px 30px;
-}
 
 .team_networks {
+    padding: 0 32px 30px;
     display: flex;
     justify-content: space-between;
     gap: 10px;
@@ -366,6 +364,7 @@ h4 {
 .team_networks_button:focus,
 .team_btn_svg:hover,
 .team_btn_svg:focus{
+    cursor: pointer;
     background: #2196F3;
     fill: white;
 }
