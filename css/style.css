@@ -73,8 +73,17 @@ nav {
     gap: 50px;
 }
 
-.studio_link:visited{
+.studio_link:visited {
     color: #2196F3;
+}
+.studio_link:after {
+    content: '';
+    border-bottom: 2px;
+    background: #2196F3;
+    position: absolute;
+    width: 48px;
+    height: 4px;
+
 }
 
 .header_contacts li a {
@@ -290,6 +299,47 @@ h2 {
     justify-content: space-between;
     gap: 30px;
 }
+
+
+.window {
+    position: relative;
+}
+
+.window_absolute {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    background: rgba(47, 48, 58, 0.8);
+
+}
+
+
+
+.window_absolute p {
+    padding: 27px 0;
+
+    font-family: Roboto-Regular,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+/*.window {*/
+/*    position: absolute;*/
+
+/*}*/
+/*.window_absolute {*/
+/*    position: relative;*/
+/*}*/
 
 
 /*=========section_team====*/
