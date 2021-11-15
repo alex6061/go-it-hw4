@@ -389,10 +389,20 @@ h4 {
     background: white;
 }
 
-.button_clients:hover {
+.svg_clients {
+    fill: #AFB1B8;
+}
+
+.svg_clients:hover {
+    fill: #2196F3;
+}
+
+.button_clients:hover,
+.button_clients:focus {
     border: 2px solid #2196F3;
     transition: 0.3s;
     cursor: pointer;
+    fill: #2196F3;
 
 }
 
