@@ -403,16 +403,11 @@ h4 {
     transition: 0.3s;
     cursor: pointer;
     fill: #2196F3;
-
 }
 
 .team_btn_svg {
     cursor: pointer;
 }
-
-.one {
-    fill: #AFB1B8;
- }
 
 /*===footer===*/
 
@@ -502,6 +497,7 @@ address li a{
 }
 
 .button_footer {
+    cursor: pointer;
     background: rgba(255, 255, 255, 0.1);
     width: 44px;
     height: 44px;
