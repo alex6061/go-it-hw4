@@ -80,8 +80,9 @@ header {
 
 
 .header_contacts li a {
+    padding: 20px 0 20px;
     text-decoration: none;
-    font-family: 'Roboto-Regular',Arial,sans-serif;
+    font-family: 'Roboto',Arial,sans-serif;
     font-weight: 500;
     font-size: 14px;
     color: #212121;
@@ -115,11 +116,37 @@ header {
     font-weight: 500;
 }
 
+.portfolio_link:visited{
+    color: #2196F3;
+}
+
 .tel a:hover,
 .tel a:focus {
     color: #2196F3;
     transition: 7ms;
 }
+
+.li_hover:hover,
+.li_hover:focus,
+.tel_tel:hover,
+.tel_tel:focus,
+.mail:hover,
+.mail:focus{
+    color: #2196F3;
+    transition: 7ms;
+    fill: #2196F3;
+}
+.svg_tel{
+    position: relative;
+    top: 1px;
+}
+
+.svg_tel,
+.svg_mail {
+    margin-right: 10px;
+}
+
+
 
 /*=================main==================*/
 
@@ -173,16 +200,16 @@ main {
 .card li {
     border-bottom: 1px solid #EEEEEE;
 }
+.card_img {
+    width: 100%;
+}
 
-.card li:hover {
+.card li:hover,
+.card li:focus{
     box-shadow: 0 0 7px lightgrey;
     transition: 0.5s;
 }
 
-.card li:focus {
-    box-shadow: 0 0 7px lightgrey;
-    transition: 0.5s;
-}
 
 h2 {
     font-family: 'Roboto-Regular',Arial,sans-serif;
@@ -299,6 +326,7 @@ address li a{
 .button_footer:focus{
     background: #2196F3;
     transition: 0.3s;
+    border: none;
 }
 
 

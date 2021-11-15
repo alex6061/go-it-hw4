@@ -5,29 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f05eb3f-3cf2-4dae-8eef-20e83d938e76" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img/Img (5).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/group-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/symbol-defs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/portfolio/symbol-defs.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/portfolio.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/astronaut (1).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/clients/Object.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/clients/Union.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/clients/group (1).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/clients/group (2).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/clients/group.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/clock (1).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/desctop (1).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/dish (1).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/mail.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/envelope.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/networks/Ellipse (1).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/networks/FB (1).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/networks/INST (1).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/networks/LD (1).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/networks/TW (1).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/tel.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
     </list>
@@ -87,7 +67,9 @@
       <workItem from="1636698980008" duration="2296000" />
       <workItem from="1636702818977" duration="7412000" />
       <workItem from="1636787150729" duration="1545000" />
-      <workItem from="1636872133884" duration="33981000" />
+      <workItem from="1636872133884" duration="34565000" />
+      <workItem from="1636956924490" duration="5481000" />
+      <workItem from="1636965433211" duration="3695000" />
     </task>
     <servers />
   </component>

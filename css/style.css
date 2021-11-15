@@ -12,26 +12,6 @@ p {color: #757575;}
     padding: 0 15px 0;
 }
 
-.box {
-    border: 1px solid green;
-    display: flex;
-    flex-direction: row;
-    width: 1200px;
-    height: 120px;
-}
-
-.box_items {
-    border: 1px solid red;
-    width: 100px;
-    height: 100px;
-}
-
-.box_items:last-child {
-    margin-left: auto;
-}
-
-
-
 .section {
     padding: 94px 0 94px;
 }
@@ -47,7 +27,6 @@ p {color: #757575;}
 @font-face {
     font-family: 'Oleo Script';
 }
-
 
 header {
     height: 80px;
@@ -107,37 +86,19 @@ nav {
     color: #212121;
     letter-spacing: 0.02em;
 }
-.header_contacts li a:hover{
-    color: #2196F3;
-    transition: 7ms;
-}
-
+.header_contacts li a:hover,
 .header_contacts li a:focus{
     color: #2196F3;
     transition: 7ms;
-    outline: none;
 }
 
 .tel {
     margin: 33px 0 24px 200px;
     float: right;
-    display: inline-block;
-}
-
-.tel {
     display: flex;
     justify-content: space-between;
     gap: 50px;
 }
-
-.tel {
-    margin-right: auto;
-}
-
-/*.tel li {*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*}*/
 
 .tel a {
     padding: 20px 0 20px;
@@ -148,29 +109,14 @@ nav {
     font-weight: 500;
 }
 
-
-/*.tel a:focus{*/
-/*    font-size: 14px;*/
-/*    font-family: 'Roboto',Arial,sans-serif;*/
-/*    font-weight: 500;*/
-/*    color: #2196F3;*/
-/*    transition: 7ms;*/
-/*    outline: none;*/
-/*}*/
-
-
 .li_hover:hover,
 .li_hover:focus,
 .tel_tel:hover,
 .tel_tel:focus,
 .mail:hover,
 .mail:focus{
-    font-size: 14px;
-    font-family: 'Roboto',Arial,sans-serif;
-    font-weight: 500;
     color: #2196F3;
     transition: 7ms;
-    outline: none;
     fill: #2196F3;
 }
 .svg_tel{
@@ -246,20 +192,35 @@ nav {
     transition: 0.3s;
 }
 
-/*===section_team===*/
+/*===section_icon===*/
+
 
 .team {
     background: #F5F4FA;
 }
 
-.wrapper {
-    padding: 94px 0 94px;
-}
-
 .wrapper_ul {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    /*align-items: center;*/
+}
+.wrapper_ul li  {
+    text-align: center;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+
+.box_flex {
+    display: flex;
+    justify-content: center;
+    padding: 25px 100px;
+}
+
+.section_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .wrapper_ul li {
@@ -273,13 +234,8 @@ nav {
     background-position: center;
 }
 
-.section_icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 h3{
+    margin-top: 10px;
     margin-bottom: 10px;
     font-style: normal;
     font-size: 14px;
@@ -297,15 +253,22 @@ h3{
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    /* or 171% */
     letter-spacing: 0.03em;
     color: #757575;
 }
 
+
+.flex_svg {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0 33px;
+}
+
+
 /*====section_do====*/
 
 .section_do {
-    padding-bottom: 94px;
+    padding: 94px 0 94px;
 }
 
 h2 {
@@ -340,12 +303,15 @@ h2 {
     gap: 30px;
 }
 
-.team__items li {
+.team__items_li {
     border: 1px solid rgba(0, 0, 0, 0.14);
     border-radius: 0 0 4px 4px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px rgba(0, 0, 0, 0.2);
     background: white;
 }
+
+
+
 
 h4 {
     font-family: Roboto, Arial, sans-serif;
@@ -384,6 +350,7 @@ h4 {
 }
 
 .team_networks_button {
+    background: none;
     background: #ffffff;
     width: 44px;
     height: 44px;
@@ -400,7 +367,6 @@ h4 {
 .team_btn_svg:hover,
 .team_btn_svg:focus{
     background: #2196F3;
-    transition: 0.3s;
     fill: white;
 }
 /*===clients===*/
