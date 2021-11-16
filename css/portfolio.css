@@ -116,7 +116,8 @@ header {
     font-weight: 500;
 }
 
-.portfolio_link:visited{
+.portfolio_link:visited,
+.portfolio_link::after{
     color: #2196F3;
 }
 
