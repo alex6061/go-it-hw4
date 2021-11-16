@@ -175,17 +175,11 @@ main {
 }
 
 
-.choice button:hover {
-    color: white;
-    background: #2196F3;
-    transition: 0.2s;
-    box-shadow: 0 0 4px lightgrey;
-}
+.choice button:hover,
 .choice button:focus {
     color: white;
     background: #2196F3;
     transition: 0.2s;
-    outline: none;
     box-shadow: 0 0 4px lightgrey;
 }
 
@@ -201,35 +195,44 @@ main {
 .card li {
     border-bottom: 1px solid #EEEEEE;
 }
+
+.card_link {
+    display: block;
+}
 .card_img {
     width: 100%;
 }
 
-.card li:hover,
-.card li:focus{
+.card_link:hover,
+.card_link:focus{
     box-shadow: 0 0 7px lightgrey;
     transition: 0.5s;
 }
 
+.card_text {
+    padding: 20px 24px;
+}
+
 
 h2 {
+    padding-bottom: 4px;
     font-family: 'Roboto-Regular',Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
-    margin: 20px 0 4px 24px ;
     color: #212121;
 
 }
 
 .it {
     font-family: 'Roboto-Regular',Arial,sans-serif;
-    margin: 4px 24px 20px;
     font-size: 16px;
     color: #757575;
     line-height: 30px;
 }
 
 /*==========footer================*/
+
+
 
 footer {
     background: #2F303A;
@@ -306,6 +309,7 @@ address li a{
 }
 
 .footer_networks {
+    position: absolute;
     display: flex;
     justify-content: space-between;
     gap: 10px;
@@ -315,26 +319,41 @@ address li a{
     fill: #FFFFFF;
 }
 
-.button_footer {
+.footer_networks_link {
     cursor: pointer;
-    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    left: 28%;
+    top: 25%;
+    transform: translate(25%,28%);
+}
+
+.footer_networks_link:hover {
+    background: #2196F3;
+}
+
+.footer_networks li{
+    cursor: pointer;
+    background: linear-gradient( to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) );
     width: 44px;
     height: 44px;
     border-radius: 50%;
     border: none;
+    position: relative;
 }
 
-.button_footer:hover,
-.button_footer:focus{
+.footer_networks li:hover {
+    background: #2196F3;
+    transition: 7ms;
+
+}
+
+.footer_networks_link:hover,
+.footer_networks_link:focus {
     background: #2196F3;
     transition: 0.3s;
-    border: none;
 }
-
-
-
-
-
 
 
 
