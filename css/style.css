@@ -78,7 +78,6 @@ nav {
     color: #2196F3;
 }
 
-
 .header_contacts li a {
     padding: 20px 0 20px;
     text-decoration: none;
@@ -88,6 +87,7 @@ nav {
     color: #212121;
     letter-spacing: 0.02em;
 }
+
 .header_contacts li a:hover,
 .header_contacts li a:focus{
     color: #2196F3;
@@ -410,19 +410,14 @@ h4 {
 }
 /*===clients===*/
 
-.section_clients {
-    padding: 94px 0 94px;
-}
 
 .clients_wrapper {
     display: flex;
     justify-content: space-between;
-
+    gap: 30px;
 }
 
-/*!*.clients_text {*!*/
-/*!*    visibility: hidden;*!*/
-/*}*/
+
 
 .clients_item {
     width: 170px;
@@ -430,16 +425,15 @@ h4 {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     cursor: pointer;
-    display: flex;
 }
 
 .clients_link {
-    display: flex;
-    position: relative;
-    left: 50%;
-    top: 50%;
+  display: block;
 }
 
+.clients_link:nth-child(1) {
+    padding: 23px 0 0 64px  ;
+}
 
 .clients_item:hover,
 .clients_item:focus {
