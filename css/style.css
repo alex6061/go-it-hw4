@@ -372,41 +372,66 @@ h4 {
 
 
 .team_networks {
-    padding: 0 32px 30px;
     display: flex;
-    justify-content: space-between;
-    gap: 10px;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+
+
+.team_btn_svg {
+    fill: #AFB1B8;
+}
+
+.team_networks li{
+    display: flex;
+    background: none;
+    background: #ffffff;
     position: relative;
+
 }
 
 .team_networks_button {
+    display: block;
     width: 44px;
     height: 44px;
-    border-radius: 50%;
-    display: block;
-    background: none;
     background: #ffffff;
+    border-radius: 50%;
 }
 
 .team_btn_svg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: center;
-    fill: #AFB1B8;
-    right: 50%;
-    bottom: 50%;
-    transform: translate(50%,50%) ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
-.team_networks_button:hover,
-.team_networks_button:focus,
-.team_btn_svg:hover,
-.team_btn_svg:focus{
-    cursor: pointer;
-    background: #2196F3;
+.team_networks_button:hover .team_btn_svg {
     fill: white;
-    border: none;
+    transition: 0.1s;
+}
+
+.team_networks_button:focus .team_btn_svg {
+    fill: white;
+    transition: 0.1s;
+}
+
+.team_networks_button:hover{
+    background: #2196F3;
+    transition: 0.1s;
+}
+
+.team_networks_button:focus{
+    background: #2196F3;
+    transition: 0.1s;
+}
+
+
+.team_btn_svg:hover{
+    fill: white;
+}
+
+.team_btn_svg:focus{
+    fill: white;
 }
 /*===clients===*/
 
@@ -418,36 +443,38 @@ h4 {
 }
 
 
-
-.clients_item {
+.clients_link {
+    display: flex;
     width: 170px;
     height: 92px;
-    border: 1px solid #AFB1B8;
+    border: 2px solid #AFB1B8;
     border-radius: 4px;
     cursor: pointer;
 }
 
-.clients_link {
-  display: block;
-}
-
-.clients_link:nth-child(1) {
-    padding: 23px 0 0 64px  ;
-}
-
-.clients_item:hover,
-.clients_item:focus {
-    border: 1px solid #2196F3;
+.clients_link{
+    padding: 23px 0 0 64px;
 }
 
 .svg_clients {
     fill: #AFB1B8;
 }
 
-.svg_clients:hover,
-.svg_clients:focus {
-    cursor: pointer;
+.clients_link:hover .svg_clients {
     fill: #2196F3;
+}
+
+.clients_link:focus .svg_clients {
+    border: #2196F3;
+    fill: #2196F3;
+}
+
+.clients_link:hover {
+    border-color: #2196F3;
+}
+
+.clients_link:focus {
+    border-color: #2196F3;
 }
 
 .team_btn_svg {
@@ -532,8 +559,8 @@ address li a{
 }
 
 .footer_networks {
-    position: absolute;
     display: flex;
+    position: absolute;
     justify-content: space-between;
     gap: 10px;
  }
@@ -542,40 +569,30 @@ address li a{
     fill: #FFFFFF;
 }
 
-.footer_networks_link {
-    cursor: pointer;
-    border-radius: 50%;
-    border: none;
-    position: relative;
-    left: 28%;
-    top: 25%;
-    transform: translate(25%,28%);
-}
-
 .footer_networks_link:hover {
    background: #2196F3;
 }
 
-.footer_networks li{
-    cursor: pointer;
-    background: linear-gradient( to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) );
+.footer_networks_link{
+    display: block;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    border: none;
+    background: linear-gradient( to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) );
     position: relative;
-}
-
-.footer_networks li:hover {
-    background: #2196F3;
-    transition: 7ms;
-
 }
 
 .footer_networks_link:hover,
 .footer_networks_link:focus {
     background: #2196F3;
     transition: 0.3s;
+}
+
+.footer_svg {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 
