@@ -454,10 +454,17 @@ h4 {
 
 .clients_link{
     padding: 23px 0 0 64px;
+    display: flex;
+    position: relative;
+
 }
 
 .svg_clients {
+    position: absolute;
     fill: #AFB1B8;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%,50%);
 }
 
 .clients_link:hover .svg_clients {
