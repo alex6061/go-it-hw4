@@ -394,6 +394,7 @@ h4 {
 }
 
 .team_networks {
+    display: flex;
     justify-content: center;
     padding-bottom: 30px;
 }
