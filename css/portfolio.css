@@ -1,9 +1,9 @@
 body,p,ul,h1,h2,h3,h4,h5,h6,button{margin: 0 auto;padding: 0}
-li {list-style: none;}
 a{text-decoration: none;}
-*,*::before,*::after{
-    box-sizing: inherit;
-}
+*,*::before,*::after{box-sizing: inherit;}
+img { display: block; max-width: 100%; height: auto; }
+li {list-style: none;}
+:focus {outline: none}
 
 
 .container {

@@ -3,6 +3,7 @@ a{text-decoration: none;}
 *,*::before,*::after{box-sizing: inherit;}
 img { display: block; max-width: 100%; height: auto; }
 li {list-style: none;}
+:focus {outline: none}
 
 p {color: #757575;}
 
@@ -152,10 +153,6 @@ nav {
     position: relative;
     top: 1px;
 }
-
-
-
-
 
 /*====section_header===*/
 
@@ -397,10 +394,11 @@ h4 {
 }
 
 .team_networks {
-    display: flex;
     justify-content: center;
-    gap: 10px;
     padding-bottom: 30px;
+}
+.team_networks li:not(:last-child){
+    margin-right: 10px;
 }
 
 .team_btn_svg {
@@ -496,7 +494,6 @@ h4 {
 }
 
 .clients_link:focus .svg_clients {
-    border: #2196F3;
     fill: #2196F3;
 }
 
