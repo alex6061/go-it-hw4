@@ -127,16 +127,28 @@ header {
     transition: 7ms;
 }
 
-.li_hover:hover,
-.li_hover:focus,
-.tel_tel:hover,
-.tel_tel:focus,
-.mail:hover,
-.mail:focus{
+.mail:hover {
+    color: #2196F3;
+    transition: 7ms;
+}
+.tel_tel:focus {
+    color: #2196F3;
+    transition: 7ms;
+}
+
+
+.tel_tel:hover .svg_tel{
     color: #2196F3;
     transition: 7ms;
     fill: #2196F3;
 }
+
+.mail:hover .svg_mail{
+    color: #2196F3;
+    transition: 7ms;
+    fill: #2196F3;
+}
+
 .svg_tel{
     position: relative;
     top: 1px;
@@ -145,6 +157,7 @@ header {
 .svg_tel,
 .svg_mail {
     margin-right: 10px;
+    fill: #757575;
 }
 
 
@@ -231,9 +244,6 @@ h2 {
 }
 
 /*==========footer================*/
-
-
-
 footer {
     background: #2F303A;
     padding: 60px 0 60px;
@@ -309,8 +319,8 @@ address li a{
 }
 
 .footer_networks {
-    position: absolute;
     display: flex;
+    position: absolute;
     justify-content: space-between;
     gap: 10px;
 }
@@ -319,34 +329,17 @@ address li a{
     fill: #FFFFFF;
 }
 
-.footer_networks_link {
-    cursor: pointer;
-    border-radius: 50%;
-    border: none;
-    position: relative;
-    left: 28%;
-    top: 25%;
-    transform: translate(25%,28%);
-}
-
 .footer_networks_link:hover {
     background: #2196F3;
 }
 
-.footer_networks li{
-    cursor: pointer;
-    background: linear-gradient( to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) );
+.footer_networks_link{
+    display: block;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    border: none;
+    background: linear-gradient( to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) );
     position: relative;
-}
-
-.footer_networks li:hover {
-    background: #2196F3;
-    transition: 7ms;
-
 }
 
 .footer_networks_link:hover,
@@ -355,6 +348,12 @@ address li a{
     transition: 0.3s;
 }
 
+.footer_svg {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 
 
 
