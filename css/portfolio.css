@@ -89,7 +89,8 @@ header {
     letter-spacing: 0.02em;
 }
 
-.header_contacts li a:hover {
+.header_contacts a:hover,
+.header_contacts a:focus {
     color: #2196F3;
     transition: 7ms;
 
@@ -99,6 +100,12 @@ header {
     color: #2196F3;
     transition: 7ms;
     outline: none;
+}
+
+.svg_tel,
+.svg_mail {
+    margin-right: 10px;
+    fill: #757575;
 }
 
 .tel {
@@ -121,46 +128,34 @@ header {
     color: #2196F3;
 }
 
-.tel a:hover,
-.tel a:focus {
-    color: #2196F3;
-    transition: 7ms;
-}
 
-.mail:hover {
-    color: #2196F3;
-    transition: 7ms;
-}
+
+.tel_tel:hover,
 .tel_tel:focus {
     color: #2196F3;
     transition: 7ms;
 }
 
-
-.tel_tel:hover .svg_tel{
-    color: #2196F3;
-    transition: 7ms;
+.tel_tel:hover .svg_tel,
+.tel_tel:focus .svg_tel {
     fill: #2196F3;
 }
 
-.mail:hover .svg_mail{
+
+.mail:hover,
+.mail:focus {
     color: #2196F3;
     transition: 7ms;
-    fill: #2196F3;
 }
 
+.mail:hover .svg_mail,
+.mail:focus .svg_mail{
+    fill: #2196F3;
+}
 .svg_tel{
     position: relative;
     top: 1px;
 }
-
-.svg_tel,
-.svg_mail {
-    margin-right: 10px;
-    fill: #757575;
-}
-
-
 
 /*=================main==================*/
 

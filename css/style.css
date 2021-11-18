@@ -116,22 +116,34 @@ nav {
     margin-right: 10px;
     fill: #757575;
 }
-.mail:hover {
+.mail:hover,
+.mail:focus {
     color: #2196F3;
+    transition: 7ms;
+
 }
 
-.mail:hover .svg_mail{
-    color: #2196F3;
+.mail:hover .svg_mail,
+.mail:focus .svg_mail{
     transition: 7ms;
     fill: #2196F3;
 }
 
-.tel_tel:hover {
+
+.tel_tel:hover .svg_mail,
+.tel_tel:focus .svg_mail{
+    transition: 7ms;
+    fill: #2196F3;
+}
+
+
+.tel_tel:hover,
+.tel_tel:focus{
     color: #2196F3;
 }
 
-.tel_tel:hover .svg_tel {
-
+.tel_tel:hover .svg_tel,
+.tel_tel:focus .svg_tel{
     transition: 7ms;
     fill: #2196F3;
 }
